@@ -1,0 +1,14 @@
+name: HexHelp
+version: 1.1 # Updated version
+main: com.hexvencraft.hexhelp.HexHelpPlugin
+api-version: '1.21'
+author: YourName
+description: A custom help command for HexvenCraft.
+commands:
+  help:
+    description: Displays the custom help message for HexvenCraft.
+    usage: /<command>
+    aliases: [?, hexhelp]
+  ask:
+    description: Asks the server AI for help with a specific command.
+    usage: /<command> <command_name>
